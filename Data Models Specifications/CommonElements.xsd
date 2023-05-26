@@ -272,7 +272,7 @@ Unique identifier of a bet, granted by the Licensee.</xs:documentation>
                 The ID refers to the certification number provided by the HGC's certification decision. A list of all certification numbers will be available via our website.
             </xs:documentation>
         </xs:annotation>
-        <xs:restriction base="mstns:CollapsedGenericID" />
+        <xs:restriction base="mstns:LongString" />
     </xs:simpleType>
     <xs:simpleType name="RNGID">
         <xs:annotation>

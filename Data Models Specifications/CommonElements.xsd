@@ -309,7 +309,7 @@ Unique identifier of a bet, granted by the Licensee.</xs:documentation>
                 The identification number of the paytable of the Game, that is related to the Game played by the Player during a game session and it is written in the game certification provided by the Certification Body.
             </xs:documentation>
         </xs:annotation>
-        <xs:restriction base="mstns:GenericID" />
+        <xs:restriction base="mstns:LongStringPreserve" />
     </xs:simpleType>
     <xs:simpleType name="TaxationSessionID">
         <xs:annotation>
